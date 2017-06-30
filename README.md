@@ -60,3 +60,11 @@ keychain.accessibility(.whenUnlocked)["unlocked"] = "unlockedTest"
 // iCloudによる同期を有効にする
 keychain.synchronizable(true)["iCloud"] = "iCloudTest"
 ```
+
+## 参考
+- [Github](https://github.com/kishikawakatsumi/KeychainAccess)
+- [AppleによるKeychain Servicesの公式ドキュメント](https://developer.apple.com/documentation/security/keychain_services)
+- [岸川さんのリリース時の文章](http://blog.kishikawakatsumi.com/entry/2015/01/03/082916)
+- [[iOS] アカウント情報をアプリ間で安全に共有する方法](https://blog.odoruinu.net/2014/07/10/ios-keychain-sharing-data-between-apps/)
+<br>別ラッパ(LUKeychainAccess)を用いているけどキーチェーンサービス自体の説明がある
+
