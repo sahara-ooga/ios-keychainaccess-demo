@@ -33,6 +33,7 @@ class ViewController: UIViewController {
 
         // メソッド
         let str1 = try? keychain.get("hoge")
+        
         // StringとDataが混在しているときはこちらのメソッド使うとわかりやすい
         let str2 = try? keychain.getString("hoge")
 
